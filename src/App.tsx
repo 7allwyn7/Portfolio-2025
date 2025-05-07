@@ -1,11 +1,20 @@
 import './App.css'
 
-function App() {
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Projects from './components/Projects'
+import About from './components/About'
+import Contact from './components/Contact'
+
+
+export default function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-red-600">My Portfolio init</h1>
+      <Navbar />
+      <Hero />
+      <Projects />
+      <About />
+      <Contact />
     </>
   )
 }
-
-export default App
