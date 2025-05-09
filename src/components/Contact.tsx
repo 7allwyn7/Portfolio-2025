@@ -25,7 +25,7 @@ export default function Contact() {
   </a>
   <button
         onClick={handleCopy}
-        className="text-black dark:text-white hover:text-golddark dark:hover:text-gold transition"
+        className="cursor-pointer text-black dark:text-white hover:text-golddark dark:hover:text-gold transition"
       >
         {copied ? <FiCheck className="w-7 h-7" /> : <FiCopy className="w-7 h-7" />}
       </button>
