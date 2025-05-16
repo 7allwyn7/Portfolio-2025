@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { FiCopy, FiCheck,FiMail  } from "react-icons/fi";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FiCopy, FiCheck,FiMail,FiLinkedin  } from "react-icons/fi";
 export default function Contact() {
   const [copied, setCopied] = useState(false);
   const email = "se7encoding@gmail.com";
@@ -30,11 +29,8 @@ export default function Contact() {
         {copied ? <FiCheck className="w-3 h-3" /> : <FiCopy className="w-3 h-3" />}
       </button>
       </div>
-    <a href="https://www.instagram.com/allwyn_joseph7" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline hover:text-golddark dark:hover:text-gold transition">
-    <FaInstagram className="w-7 h-7"/>
-    </a>
     <a href="https://www.linkedin.com/in/allwyn7joseph" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline hover:text-golddark dark:hover:text-gold transition">
-    <FaLinkedin className="w-7 h-7"/>
+    <FiLinkedin className="w-7 h-7"/>
     </a>
   </div>
   <br></br>
