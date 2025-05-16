@@ -20,14 +20,14 @@ export default function Contact() {
       <h3 className="text-golddark dark:text-gold text-2xl font-bold mb-4">Get in Touch</h3>
         <div className="flex gap-4 justify-center" >
         <div className="flex gap-2 justify-center" >
-        <a href="mailto:se7encoding@gmail.com" className="text-black dark:text-white hover:underline hover:text-golddark dark:hover:text-gold transition">
+        <a href="mailto:7allwyn7@gmail.com" className="text-black dark:text-white hover:underline hover:text-golddark dark:hover:text-gold transition">
         <FiMail className="w-7 h-7"/>
   </a>
   <button
         onClick={handleCopy}
         className="cursor-pointer text-black dark:text-white hover:text-golddark dark:hover:text-gold transition"
       >
-        {copied ? <FiCheck className="w-7 h-7" /> : <FiCopy className="w-7 h-7" />}
+        {copied ? <FiCheck className="w-3 h-3" /> : <FiCopy className="w-3 h-3" />}
       </button>
       </div>
     <a href="https://www.instagram.com/allwyn_joseph7" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white hover:underline hover:text-golddark dark:hover:text-gold transition">
